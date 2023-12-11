@@ -79,34 +79,61 @@ body{
   color: #fff;
   padding-top: 20px;
 }
-.anu ul li{
-    float:left;
-    list-style:none;
+.parea{
+  background:#fff;
+  padding:50px 0;
 }
-.anu ul li:after{
-    content:"/";
+.parea1{
+  text-align:center;
+  animation:cat 2s .25s 1;
 }
-.anu li:last-child:after{
-    content:"";
+@keyframes cat{
+  0% {
+      letter-spacing: 20px;
+      opacity: 0;
+  }
+  100% {
+      letter-spacing: 0;
+      opacity: 1;
 }
-h2{
-    position: relative;
-    text-align: center;
 }
-h2:before,h2:after{
-    position:absolute;
-    content:"";
-    display: block;
-    width:20%;
-    height: 2px;
-    background:red;
-    top:50%;
+.parea2 h3{
+  text-align: center;
+  color: #b65651;
+  margin: 25px 0;
 }
-h2:before{
-    left:410px;
+.parea2 h3:before{
+  background-color: #b65651;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 35%;
+  right:8px;
+  margin-left: -50%;
 }
-h2:after{
-    right:120px;
+.parea2 h3:after{
+  background-color: #b65651;
+  content: "";
+  height: 1px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 35%;
+  left:8px;
+  margin-right: -50%;
+}
+.parea2 h6 a{
+  color:#B65651;
+  text-decoration: none;
+}
+.parea3 tr:first-child{
+  background: #C25B55;
+  color: #fff;
+}
+.parea3 tr:nth-child(2){
+  background:#F2C38B;
 }
   
   
