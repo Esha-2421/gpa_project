@@ -1,0 +1,145 @@
+
+body{
+    margin:0;
+    padding:0;
+  }
+  .toparea{
+    background:#B65752;
+    padding:10px 0;
+    color: #fff;
+    text-align:center;
+    
+  }
+  .toparea a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .headingarea{
+    background:#F2C38B;
+    padding:45px 0;
+    text-align:center;
+  }
+  .headingarea img{
+    height:90px;
+  }
+  .headingarea h1{
+    color:#74353F;
+    text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+    font-weight:bold;
+  }
+  .headingarea h4{
+    color:black;
+  }
+  .parea{
+    background:#fff;
+  }
+  .parea1{
+    text-align:center;
+    animation:cat 2s .25s 1;
+  }
+  @keyframes cat{
+    0% {
+        letter-spacing: 20px;
+        opacity: 0;
+    }
+    100% {
+        letter-spacing: 0;
+        opacity: 1;
+  }
+}
+    .parea2 p{
+        text-align: justify;
+    }
+    .t{
+        margin-bottom:30px;
+        overflow:auto;
+    }
+    .parea2 table{    
+        border: 1px solid #dee2e6;
+        border-collapse: collapse;
+        width:100%;
+        border-spacing: 2px;
+    }
+    .parea2 tr{
+        border-style: solid;
+        border-width: 0;
+    }
+    .parea2 tr:first-child{
+        background: #c25b56;
+        color: #fff;
+    }
+    .parea2 th{
+         border: 1px solid #dee2e6;
+         vertical-align: top;
+         padding:10px;
+         text-align:center;
+    }
+    .parea2 td{
+      border: 1px solid #dee2e6;    
+      padding:10px;
+      vertical-align:top;
+    }
+    .parea2 td:nth-child(2n){
+      text-align: right;
+    }
+    .parea2 tr:last-child{
+      font-weight:bold;
+    }
+    .parea3{
+      text-align:justify;
+    }
+    .footerarea{
+    padding: 50px 0;
+    background: #2f2f2f url('foot.png');
+  }
+  .footerarea h5{
+    color: #fff;
+    border-left: solid 5px #FFF;
+    padding-left: 10px;
+  }
+  .footerarea p{
+    color: #f2c38b;
+  }
+  .footerarea a{
+    color: #d37f57;
+    text-decoration: none;
+  }
+  .footerarea a:hover{
+    color: #f2c38b;
+  }
+  .footerarea ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footerarea ul li{
+  padding:3px 0;
+  color: #d37f57;
+ text-decoration: none;
+ transition: all 1s;
+}
+.footerarea ul li:hover{
+  transform:translate(5px,0);
+  background-color: transparent;
+}
+.footerarea ul li a{
+  color: #d37f57;
+  text-decoration: none;
+}
+.footerarea ul li a:hover{
+  color:#d37f57;
+}
+.line{
+  background-image: linear-gradient(to right,transparent,#DBDBDB,transparent);
+  border: 0;
+  height: 1px;
+}
+.lastarea p{
+  text-align:center;
+  color: #fff;
+  padding-top: 20px;
+}
+  
+  
+
+  

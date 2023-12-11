@@ -1,0 +1,147 @@
+  /* *{ 
+    color:skyblue;
+  }*/
+  body{
+    margin:0;
+    padding:0;
+  }
+  .toparea{
+    background:#B65752;
+    padding:10px 0;
+    color: #fff;
+    text-align:center;
+  }
+  .toparea a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .headingarea{
+    background:#F2C38B;
+    padding:45px 0;
+    text-align:center;
+  }
+  .headingarea img{
+    height:90px;
+  }
+  .headingarea h1{
+    color:#74353F;
+    text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+    font-weight:bold;
+  }
+  h1::before{
+    content:"Hello";
+  }
+  h1::after{
+    content:"Hello";
+  }
+  .headingarea h4{
+    color:black;
+  }
+  .parea{
+    background:#fff;
+    padding:50px 0;
+  }
+  .parea1{
+    text-align:center;
+  }
+  .parea2 img{
+    width:100%;
+  }
+  .parea2 p{
+    text-align:justify;
+  }
+  .parea2 :last-child{
+    text-align:right;
+  }
+  .coursearea{
+    background:url('library.jpg') fixed;
+    background-size:cover;
+    padding:60px;
+  }
+  .course1{
+    text-align:center;
+  }
+  .course2{
+      text-align:center;
+      background:#fff;
+      margin:25px 0;
+      padding:10px 0 5px 0;
+    }
+  .box{
+      background:#fff;
+      text-align:center;
+      padding:40px;
+      border: 2px solid #d5d5d5;
+    }
+    .box img{
+      width:100%;
+      transition:all 2s;
+      border-radius:100%;
+    }
+  .box:hover img{
+    transform:rotate(360deg);
+  }
+  .box h3{
+    text-align:center;
+    font-size:20px;
+    margin-top:20px;
+  }
+  .alumniarea{
+    background:#000 url('alumni.jpg') center bottom;
+    text-align:center;
+  }
+  .footerarea{
+    padding: 50px 0;
+    background: #2f2f2f url('foot.png');
+  }
+  .footerarea h5{
+    color: #fff;
+    border-left: solid 5px #FFF;
+    padding-left: 10px;
+  }
+  .footerarea p{
+    color: #f2c38b;
+  }
+  .footerarea a{
+    color: #d37f57;
+    text-decoration: none;
+  }
+  .footerarea a:hover{
+    color: #f2c38b;
+  }
+  .footerarea ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footerarea ul li{
+  padding:3px 0;
+  color: #d37f57;
+ text-decoration: none;
+ transition: all 1s;
+}
+.footerarea ul li:hover{
+  transform:translate(5px,0);
+  background-color: transparent;
+}
+.footerarea ul li a{
+  color: #d37f57;
+  text-decoration: none;
+}
+.footerarea ul li a:hover{
+  color:#d37f57;
+}
+.line{
+  background-image: linear-gradient(to right,transparent,#DBDBDB,transparent);
+  border: 0;
+  height: 1px;
+}
+.lastarea{
+  text-align:center;
+  color: #fff;
+  padding-top: 20px;
+}
+  
+  
+
+  
