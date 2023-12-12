@@ -86,7 +86,26 @@ body{
   color: #fff;
   padding-top: 20px;
 }
-  
+th{
+  background:#C25B56;
+  color:white;
+}
+table a{
+  color:#C25B56;
+  text-decoration:none;
+}
+table a:hover{
+  color:#C25B56;
+  text-decoration:underline;
+}
+.primary{
+  border: solid 1px #C25B56;
+  border-radius: 5px;
+}
+.primary:hover{
+  color:white;
+  background:#C25B56;
+}
   
 
   
