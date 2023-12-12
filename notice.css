@@ -1,3 +1,4 @@
+
 body{
     margin:0;
     padding:0;
@@ -46,59 +47,6 @@ body{
         opacity: 1;
   }
 }
-.parea2 h3{
-  text-align: center;
-  color: #b65651;
-  margin:25px 0;
-  position: relative;
-  text-shadow: -1px 1px 0 #0000004d;
-}
-.parea2 h3:before,.parea2 h3:after{
-  background-color: #b65651;
-  content: "";
-  display:block;
-  height:2px;
-  position:absolute;
-  width:35%;
-  top:50%;
-}
-.parea2 h3:before{
-  left:3px;
-}
-.parea2 h3:after{
-  right:3px;
-}
-.parea3 h4{
-    font:normal bold 18px arial;
-    margin-top:3px;
-}
-.parea3 h6{
-    font:italic bold 18px italic;
-}
-.line{
-  background-image:linear-gradient(to right,transparent,#e0e0e0,transparent);
-  border:10px;
-  height:10px;
-}
-.box1{
-    margin:20px;
-}
-.box2{
-    height: 250px;
-    width: 250px;
-    position: relative;
-    border:2px solid #e2e2e2;
-    background: #fff;
-    margin:0 auto;
-}
-.box2 img{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    bottom:8px;
-    right:8px;
-    border: 1px solid #989898;
-}
     .footerarea{
     padding: 50px 0;
     background: #2f2f2f url('foot.png');
@@ -122,7 +70,7 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-}
+  }
 .footerarea ul li{
   padding:3px 0;
   color: #d37f57;
@@ -144,14 +92,9 @@ body{
   background-image: linear-gradient(to right,transparent,#DBDBDB,transparent);
   border: 0;
   height: 1px;
-  margin:25px 0;
 }
 .lastarea{
   text-align:center;
   color: #fff;
   padding-top: 20px;
 }
-  
-  
-
-  
