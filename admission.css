@@ -59,6 +59,7 @@ body{
         border-collapse: collapse;
         width:100%;
         border-spacing: 2px;
+        overflow:auto;
     }
     .parea2 tr{
         border-style: solid;

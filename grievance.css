@@ -1,3 +1,4 @@
+
 body{
     margin:0;
     padding:0;
@@ -28,7 +29,37 @@ body{
   .headingarea h4{
     color:black;
   }
-  .footerarea{
+  .parea{
+    background:#fff;
+    padding:50px 0;
+  }
+  .parea1{
+    text-align:center;
+    animation:cat 2s .25s 1;
+  }
+  @keyframes cat{
+    0% {
+        letter-spacing: 20px;
+        opacity: 0;
+    }
+    100% {
+        letter-spacing: 0;
+        opacity: 1;
+  }
+}
+    .parea2{
+        text-align: center;
+        margin:50px 0;
+    }
+    .parea2 a{
+        text-decoration: none;
+        color: #b35450;
+        border: solid 1px #CCC;
+        padding: 10px 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .footerarea{
     padding: 50px 0;
     background: #2f2f2f url('foot.png');
   }
@@ -78,59 +109,6 @@ body{
   text-align:center;
   color: #fff;
   padding-top: 20px;
-}
-.parea{
-  background:#fff;
-  padding:50px 0;
-}
-.parea1{
-  text-align:center;
-  animation:cat 2s .25s 1;
-}
-@keyframes cat{
-  0% {
-      letter-spacing: 20px;
-      opacity: 0;
-  }
-  100% {
-      letter-spacing: 0;
-      opacity: 1;
-}
-}
-.parea2 h3{
-  text-align: center;
-  color: #b65651;
-  margin: 25px 0;
-  position: relative;
-}
-.parea2 h3:before,.parea2 h3:after{
-  background-color: #b65651;
-  content: "";
-  display:block;
-  height:2px;
-  position:absolute;
-  width:20%;
-  top:50%;
-}
-.parea2 h3:before{
-  left:100px;
-}
-.parea2 h3:after{
-  right:100px;
-}
-.parea2 h6 a{
-  color:#B65651;
-  text-decoration: none;
-}
-.parea3 tr:first-child{
-  background: #C25B55;
-  color: #fff;
-}
-.parea3 tr:nth-child(2){
-  background:#F2C38B;
-}
-.parea3 tr td:first-child{
-  text-align:left;
 }
   
   
