@@ -50,6 +50,7 @@ body{
     .footerarea{
     padding: 50px 0;
     background: #2f2f2f url('foot.png');
+    margin-top:50px;
   }
   .footerarea h5{
     color: #fff;
@@ -89,12 +90,58 @@ body{
   color:#d37f57;
 }
 .line{
-  background-image: linear-gradient(to right,transparent,#DBDBDB,transparent);
+  background-image: linear-gradient(to right,transparent,black,transparent);
   border: 0;
   height: 1px;
+  margin:30px;
 }
 .lastarea{
   text-align:center;
   color: #fff;
   padding-top: 20px;
+}
+.box{
+  margin:0 auto;
+  width:80px;
+  height:70px;
+  border-radius:0 0 8px 8px;
+  box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.5);
+}
+.month{
+  background: #fd9f1b;
+  width:80px;
+  height:20px;
+  color:white;
+  text-align:center;
+  padding-top:0.5px;
+  border-radius:8px 8px 0 0;
+  font-size:12px;
+  font-weight:bold;
+}
+.date{
+  background:#Fff;
+  width:80px;
+  height:50px;
+  text-align:center;
+  padding-top:10px;
+  border-radius:0 0 8px 8px;
+  font-size:22px;
+  font-weight:bold;
+}
+.parea6{
+  text-align:left;
+  margin:0 auto;
+  padding-top:10px;
+}
+.parea6 a{
+  color: #2f2f2f;
+  margin: 0;
+  text-decoration: none;
+  font-weight:bold;
+}
+.parea7,.fa{
+  font-size:30px;
+  padding-top: 10px;
+  color: #cc4b4c;
+  text-align: center;
 }
