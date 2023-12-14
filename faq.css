@@ -31,7 +31,7 @@ body{
   }
   .parea{
     background:#fff;
-    padding:50px 0;
+    padding:50px 20px;
   }
   .parea1{
     text-align:center;
@@ -50,13 +50,14 @@ body{
 .parea2{
   background:#fff;
   box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
-  padding:10px 20px;
+  padding:10px 10px;
   border-radius:10px;
   margin-bottom:30px;
 }
 .parea2 p{
   margin:0;
   padding:0;
+  text-align: justify;
 }
 .parea2:hover{
   box-shadow: -1px 30px 87px -22px rgba(0,0,0,0.75);
