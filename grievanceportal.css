@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+}
+.headingarea{
+    background:#FFC038;
+    padding:45px 0 12px 0;
+    text-align: center;
+}
+.headingarea img{
+    width:90px;
+}
+.headingarea h1{
+    text-align: justify;
+}
+.headingarea h5{
+    text-align: justify;
+}
+.parea{
+    text-align: center;
+    margin-top:65px;
+}
+.parea1{
+    background:#464646;
+    color:white;
+    padding:7px 50px;
+}
+.parea3{
+    background:#50BBDB;
+    color:white;
+    border:0;
+    padding:5px 20px;
+    text-align:right;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.parea5{
+    color:black;
+    font-weight:bold;
+}
+
+.p:hover{
+    border: solid 1px red;
+}
