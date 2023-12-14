@@ -81,7 +81,7 @@ body{
 }
 .parea{
   background:#fff;
-  padding:50px 0;
+  padding:50px 20px;
 }
 .parea1{
   text-align:center;
@@ -121,6 +121,9 @@ body{
 .parea2 h6 a{
   color:#B65651;
   text-decoration: none;
+}
+.parea3{
+  overflow:auto;
 }
 .parea3 tr:first-child{
   background: #C25B55;

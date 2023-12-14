@@ -51,16 +51,17 @@ body{
     .parea2 p{
         text-align: justify;
     }
-    .t{
+    .parea2{
+      overflow:auto;
+    }
+    .t table{
         margin-bottom:30px;
-        overflow:auto;
     }
     .parea2 table{    
         border: 1px solid #dee2e6;
         border-collapse: collapse;
         width:100%;
         border-spacing: 2px;
-        overflow:auto;
     }
     .parea2 tr{
         border-style: solid;

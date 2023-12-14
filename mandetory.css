@@ -30,7 +30,7 @@ body{
   }
   .parea{
     background:#fff;
-    padding:50px 0;
+    padding:50px 20px;
   }
   .parea1{
     text-align:center;
@@ -85,6 +85,9 @@ body{
   text-align:center;
   color: #fff;
   padding-top: 20px;
+}
+.parea2{
+  overflow: auto;
 }
 th{
   background:#C25B56;
