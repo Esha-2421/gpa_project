@@ -115,11 +115,11 @@ body{
 }
 .photo{
     cursor:zoom-in;
-    background: linear-gradient(0deg,#7d322e,#d0615b);
+    background: linear-gradient(#8f343e,#b0615b);
     padding:10px;
 }
 .photo:hover{
-    background: linear-gradient(0deg,#d0615b,#7d322e);
+    background: linear-gradient(#b0615b,#8f343e);
 }
 .photo img{
     width:100%;
